@@ -12,7 +12,6 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/videobotmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -34,6 +33,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": ""
 	}
 }
