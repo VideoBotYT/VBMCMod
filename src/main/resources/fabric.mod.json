@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "videobotmod",
+	"version": "${version}",
+	"name": "VideoBot Mod",
+	"description": "This is a made by VideoBot",
+	"authors": [
+		"VideoBot"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/videobotmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.videobot.videobotmod.VideoBotMod"
+		],"client": [
+			"net.videobot.videobotmod.VideoBotModClient"
+		],
+		"fabric-datagen": [
+			"net.videobot.videobotmod.VideoBotModDataGenerator"
+		]
+	},
+	"mixins": [
+		"videobotmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
