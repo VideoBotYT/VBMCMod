@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.videobot.videobotmod.Items.ModItemGroups;
 import net.videobot.videobotmod.Items.ModItems;
+import net.videobot.videobotmod.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,5 +16,6 @@ public class VideoBotMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

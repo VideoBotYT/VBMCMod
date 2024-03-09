@@ -2,5 +2,13 @@
   "item.videobotmod.ruby": "Ruby",
   "item.videobotmod.raw_ruby": "Raw Ruby",
 
+  "block.videobotmod.ruby_block": "Ruby Block",
+  "block.videobotmod.raw_ruby_block": "Raw Ruby Block",
+
+  "block.videobotmod.ruby_ore": "Ruby Ore",
+  "block.videobotmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.videobotmod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.videobotmod.end_ruby_ore": "End Ruby Ore",
+
   "itemgroup.videobotitems": "VideoBot Items"
 }
