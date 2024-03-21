@@ -10,6 +10,9 @@
   "block.videobotmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.videobotmod.end_stone_ruby_ore": "End Stone Ruby Ore",
 
+  "item.videobotmod.metal_detector": "Metal Detector",
+
   "itemgroup.videobotitems": "VideoBot Items",
-  "itemgroup.videobotores": "VideoBot Ores"
+  "itemgroup.videobotores": "VideoBot Ores",
+  "itemgroup.videobottools": "VideoBot Tools"
 }

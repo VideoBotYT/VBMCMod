@@ -31,6 +31,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
                     }).build());
+    public static final ItemGroup VideoBotTools = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(VideoBotMod.MOD_ID, "metal_detector"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.videobottools"))
+                    .icon(() -> new ItemStack(ModItems.METAL_DETECTOR)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.METAL_DETECTOR);
+                    }).build());
+
 
     public static void registerItemGroups(){
         VideoBotMod.LOGGER.info("Registering Item Groups for: " + VideoBotMod.MOD_ID);
