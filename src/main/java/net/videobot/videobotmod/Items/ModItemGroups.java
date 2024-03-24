@@ -12,14 +12,18 @@ import net.videobot.videobotmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup VideoBotItems = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(VideoBotMod.MOD_ID, "ruby_block"),
+            new Identifier(VideoBotMod.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.videobotitems"))
-                    .icon(() -> new ItemStack(ModBlocks.RUBY_BLOCK)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModItems.RUBY);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
+                        entries.add(ModBlocks.SOUND_BLOCK);
+
+                        entries.add(ModItems.TOMATO);
 
                     }).build());
     public static final ItemGroup VideoBotOres = Registry.register(Registries.ITEM_GROUP,

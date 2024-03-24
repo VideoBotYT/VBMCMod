@@ -2,8 +2,11 @@
   "item.videobotmod.ruby": "Ruby",
   "item.videobotmod.raw_ruby": "Raw Ruby",
 
+  "item.videobotmod.tomato": "Tomato",
+
   "block.videobotmod.ruby_block": "Ruby Block",
   "block.videobotmod.raw_ruby_block": "Raw Ruby Block",
+  "block.videobotmod.sound_block": "Sound Block",
 
   "block.videobotmod.ruby_ore": "Ruby Ore",
   "block.videobotmod.deepslate_ruby_ore": "Deepslate Ruby Ore",

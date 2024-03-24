@@ -26,10 +26,10 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
-glintSpeed:0.5
-glintStrength:0.75
+glintSpeed:1.0
+glintStrength:1.0
 damageTiltStrength:1.0
-highContrast:false
+highContrast:true
 gamma:0.5
 renderDistance:12
 simulationDistance:12
@@ -42,9 +42,9 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","file/MattPack 1.20.zip"]
+resourcePacks:["vanilla","fabric","high_contrast","file/MattPack 1.20.zip"]
 incompatibleResourcePacks:[]
-lastServer:localhost:25565
+lastServer:mc.synergyserver.net
 lang:en_us
 soundDevice:""
 chatVisibility:0
