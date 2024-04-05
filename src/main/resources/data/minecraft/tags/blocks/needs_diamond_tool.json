@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "videobotmod:ruby_block",
-    "videobotmod:raw_ruby_block",
-    "videobotmod:deepslate_ruby_ore",
-    "videobotmod:nether_ruby_ore"
-  ]
-}

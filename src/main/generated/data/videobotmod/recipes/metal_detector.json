@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "videobotmod:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RSR",
+    "SIS",
+    "III"
+  ],
+  "result": {
+    "item": "videobotmod:metal_detector"
+  },
+  "show_notification": true
+}

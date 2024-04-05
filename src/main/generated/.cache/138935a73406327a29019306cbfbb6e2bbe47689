@@ -1,0 +1,8 @@
+// 1.20.1	2024-04-04T19:51:09.3517197	VideoBot Mod/Block Loot Tables
+9a20d878073e57ce1c722f97fb6ccebe3e870c94 data\videobotmod\loot_tables\blocks\ruby_ore.json
+251fa5103030ed996f4c4c67133028d039f2d56f data\videobotmod\loot_tables\blocks\end_stone_ruby_ore.json
+9f7629e9c48de955e58136fc43f37073e9800456 data\videobotmod\loot_tables\blocks\raw_ruby_block.json
+ca0e0554b4a4c96e5162474e8f51004354a5d79b data\videobotmod\loot_tables\blocks\deepslate_ruby_ore.json
+b7122db1fd10737ee9526275eb3ea2b915ec208e data\videobotmod\loot_tables\blocks\nether_ruby_ore.json
+c4ec6c54005e9b7717704c96848a73bc1de5f1cd data\videobotmod\loot_tables\blocks\ruby_block.json
+14f30a40794374ca6a3c024284dca1d5498e5583 data\videobotmod\loot_tables\blocks\sound_block.json

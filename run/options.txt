@@ -16,7 +16,7 @@ showSubtitles:true
 directionalAudio:false
 touchscreen:false
 fullscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -31,18 +31,18 @@ glintStrength:1.0
 damageTiltStrength:1.0
 highContrast:true
 gamma:0.5
-renderDistance:12
-simulationDistance:12
+renderDistance:6
+simulationDistance:32
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
-maxFps:120
+maxFps:60
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","high_contrast","file/MattPack 1.20.zip"]
+resourcePacks:["vanilla","fabric","file/MattPack 1.20.zip","high_contrast"]
 incompatibleResourcePacks:[]
 lastServer:mc.synergyserver.net
 lang:en_us
@@ -75,7 +75,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -106,7 +106,7 @@ key_key.smoothCamera:key.keyboard.equal
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.period
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.c
+key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1

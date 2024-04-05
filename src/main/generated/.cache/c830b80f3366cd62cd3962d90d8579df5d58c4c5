@@ -1,0 +1,5 @@
+// 1.20.1	2024-04-04T19:51:09.2703482	VideoBot Mod/Tags for minecraft:block
+e8a75ae3995ab18f364b9d6aceddd5a2986bfba1 data\videobotmod\tags\blocks\metal_dectector_detectable_blocks.json
+a6aed722f0b8346298d4a8b73c03e0e2ea6d8309 data\fabric\tags\blocks\needs_tool_level_4.json
+8954ea8d6e02c3fd3b8001d9f0eca69bcc855ca3 data\minecraft\tags\blocks\needs_diamond_tool.json
+d6d66bf29817b648ae127e86ece67fc0435f2347 data\minecraft\tags\blocks\mineable\pickaxe.json

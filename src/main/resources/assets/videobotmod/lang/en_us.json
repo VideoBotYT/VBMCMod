@@ -4,6 +4,8 @@
 
   "item.videobotmod.tomato": "Tomato",
 
+  "item.videobotmod.power_coal": "Powered Coal",
+
   "block.videobotmod.ruby_block": "Ruby Block",
   "block.videobotmod.raw_ruby_block": "Raw Ruby Block",
   "block.videobotmod.sound_block": "Sound Block",
@@ -14,6 +16,9 @@
   "block.videobotmod.end_stone_ruby_ore": "End Stone Ruby Ore",
 
   "item.videobotmod.metal_detector": "Metal Detector",
+
+  "tooltip.metal_detector": "Finds metal ores underground. Example: Iron ore, gold ore,...",
+  "tooltip.soundblock": "Plays sound when right-clicked. Obvious right?",
 
   "itemgroup.videobotitems": "VideoBot Items",
   "itemgroup.videobotores": "VideoBot Ores",

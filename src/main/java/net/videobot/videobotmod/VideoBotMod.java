@@ -2,6 +2,7 @@ package net.videobot.videobotmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.videobot.videobotmod.Items.ModItemGroups;
 import net.videobot.videobotmod.Items.ModItems;
 import net.videobot.videobotmod.block.ModBlocks;
@@ -15,7 +16,10 @@ public class VideoBotMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.POWER_COAL, 69000000);
 	}
 }

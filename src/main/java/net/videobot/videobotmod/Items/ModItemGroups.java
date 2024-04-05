@@ -25,6 +25,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.TOMATO);
 
+                        entries.add(ModItems.POWER_COAL);
+
                     }).build());
     public static final ItemGroup VideoBotOres = Registry.register(Registries.ITEM_GROUP,
             new Identifier(VideoBotMod.MOD_ID, "raw_ruby_block"),
