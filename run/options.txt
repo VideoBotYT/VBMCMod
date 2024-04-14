@@ -44,7 +44,7 @@ biomeBlendRadius:2
 renderClouds:"true"
 resourcePacks:["vanilla","fabric","file/MattPack 1.20.zip","high_contrast"]
 incompatibleResourcePacks:[]
-lastServer:mc.synergyserver.net
+lastServer:bbfriends.minefort.com
 lang:en_us
 soundDevice:""
 chatVisibility:0

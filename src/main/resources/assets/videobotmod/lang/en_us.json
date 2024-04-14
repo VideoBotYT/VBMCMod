@@ -2,6 +2,14 @@
   "item.videobotmod.ruby": "Ruby",
   "item.videobotmod.raw_ruby": "Raw Ruby",
 
+  "item.videobotmod.ruby_staff": "Ruby Staff",
+
+  "item.videobotmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.videobotmod.ruby_axe": "Ruby Axe",
+  "item.videobotmod.ruby_sword": "Ruby Sword",
+  "item.videobotmod.ruby_shovel": "Ruby Shovel",
+  "item.videobotmod.ruby_hoe": "Ruby Hoe",
+
   "item.videobotmod.tomato": "Tomato",
 
   "item.videobotmod.power_coal": "Powered Coal",
@@ -14,6 +22,16 @@
   "block.videobotmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.videobotmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.videobotmod.end_stone_ruby_ore": "End Stone Ruby Ore",
+
+  "block.videobotmod.ruby_stairs": "Ruby Stairs",
+  "block.videobotmod.ruby_slab": "Ruby Slab",
+  "block.videobotmod.ruby_button": "Ruby Button",
+  "block.videobotmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.videobotmod.ruby_fence": "Ruby Fence",
+  "block.videobotmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.videobotmod.ruby_wall": "Ruby Wall",
+  "block.videobotmod.ruby_door": "Ruby Door",
+  "block.videobotmod.ruby_trapdoor": "Ruby Trapdoor",
 
   "item.videobotmod.metal_detector": "Metal Detector",
 

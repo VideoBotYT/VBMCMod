@@ -1,4 +1,4 @@
-package net.videobot.videobotmod.Items;
+package net.videobot.videobotmod.item;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

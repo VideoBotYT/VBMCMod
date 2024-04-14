@@ -1,14 +1,12 @@
-package net.videobot.videobotmod.Items;
+package net.videobot.videobotmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.videobot.videobotmod.Items.custom.MetalDetectorItem;
+import net.videobot.videobotmod.item.custom.MetalDetectorItem;
 import net.videobot.videobotmod.VideoBotMod;
-import net.minecraft.item.Item;
 import net.minecraft.registry.Registry;
 
 public class ModItems {
@@ -19,6 +17,20 @@ public class ModItems {
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(69)));
+
+    public static final Item RUBY_STAFF = registerItem("ruby_staff",
+            new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new PickaxeItem(ModToolMaterial.RUBY, 8, 4f, new FabricItemSettings()));
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new AxeItem(ModToolMaterial.RUBY, 40, 10f, new FabricItemSettings()));
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 8, 4f, new FabricItemSettings()));
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterial.RUBY, 80, 20f, new FabricItemSettings()));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new HoeItem(ModToolMaterial.RUBY, 2, 2f, new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
