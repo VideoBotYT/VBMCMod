@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.videobot.videobotmod.item.ModItemGroups;
 import net.videobot.videobotmod.item.ModItems;
 import net.videobot.videobotmod.block.ModBlocks;
+import net.videobot.videobotmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,6 +21,10 @@ public class VideoBotMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModLootTableModifiers.modifyLootTables();
+
 		FuelRegistry.INSTANCE.add(ModItems.POWER_COAL, 69000000);
+		FuelRegistry.INSTANCE.add(ModItems.X_ROBOT, 10000);
+		FuelRegistry.INSTANCE.add(ModItems.X_JETPACK, 99999999);
 	}
 }

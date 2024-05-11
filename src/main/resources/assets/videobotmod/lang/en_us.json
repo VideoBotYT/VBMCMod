@@ -10,6 +10,11 @@
   "item.videobotmod.ruby_shovel": "Ruby Shovel",
   "item.videobotmod.ruby_hoe": "Ruby Hoe",
 
+  "item.videobotmod.ruby_helmet": "Ruby Helmet",
+  "item.videobotmod.ruby_chestplate": "Ruby Chestplate",
+  "item.videobotmod.ruby_leggings": "Ruby Leggings",
+  "item.videobotmod.ruby_boots": "Ruby Boots",
+
   "item.videobotmod.tomato": "Tomato",
 
   "item.videobotmod.power_coal": "Powered Coal",
@@ -38,7 +43,14 @@
   "tooltip.metal_detector": "Finds metal ores underground. Example: Iron ore, gold ore,...",
   "tooltip.soundblock": "Plays sound when right-clicked. Obvious right?",
 
+  "block.videobotmod.xcube": "X: Cube",
+  "item.videobotmod.xswing": "X: Swing",
+  "item.videobotmod.xrobot": "X: Robot",
+  "item.videobotmod.xship": "X: Ship",
+  "item.videobotmod.xjetpack": "X: Jetpack",
+
   "itemgroup.videobotitems": "VideoBot Items",
   "itemgroup.videobotores": "VideoBot Ores",
-  "itemgroup.videobottools": "VideoBot Tools"
+  "itemgroup.videobottools": "VideoBot Tools",
+  "itemgroup.xblock": "XcreatorGoal"
 }

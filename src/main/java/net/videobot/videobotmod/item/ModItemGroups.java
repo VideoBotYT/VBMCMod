@@ -37,6 +37,11 @@ public class ModItemGroups {
 
                         entries.add(ModItems.POWER_COAL);
 
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
+
                     }).build());
     public static final ItemGroup VideoBotOres = Registry.register(Registries.ITEM_GROUP,
             new Identifier(VideoBotMod.MOD_ID, "raw_ruby_block"),
@@ -59,6 +64,18 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SHOVEL);
                         entries.add(ModItems.RUBY_SWORD);
                         entries.add(ModItems.RUBY_HOE);
+                    }).build());
+
+    public static final ItemGroup XBLOCKS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(VideoBotMod.MOD_ID, "xswing"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.xblock"))
+                    .icon(() -> new ItemStack(ModBlocks.X_BlOCK)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.X_BlOCK);
+                        entries.add(ModItems.X_SWING);
+                        entries.add(ModItems.X_ROBOT);
+                        entries.add(ModItems.X_SHIP);
+                        entries.add(ModItems.X_JETPACK);
+                        entries.add(ModItems.X_SPIDER);
                     }).build());
 
 

@@ -12,7 +12,7 @@
   "pattern": [
     "RR",
     "SR",
-    " S"
+    "S "
   ],
   "result": {
     "item": "videobotmod:ruby_axe"
