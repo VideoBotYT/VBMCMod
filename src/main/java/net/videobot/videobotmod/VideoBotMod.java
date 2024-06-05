@@ -24,7 +24,5 @@ public class VideoBotMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 
 		FuelRegistry.INSTANCE.add(ModItems.POWER_COAL, 69000000);
-		FuelRegistry.INSTANCE.add(ModItems.X_ROBOT, 10000);
-		FuelRegistry.INSTANCE.add(ModItems.X_JETPACK, 99999999);
 	}
 }

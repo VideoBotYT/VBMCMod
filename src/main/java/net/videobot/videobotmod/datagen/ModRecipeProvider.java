@@ -18,8 +18,6 @@ import java.util.function.Consumer;
 public class ModRecipeProvider extends FabricRecipeProvider {
     private static final List<ItemConvertible> RUBY_SMELTABLES = List.of(ModItems.RAW_RUBY,
             ModBlocks.RUBY_ORE, ModBlocks.DEEPSLATE_RUBY_ORE, ModBlocks.NETHER_RUBY_ORE, ModBlocks.END_STONE_RUBY_ORE);
-    private static final List<ItemConvertible> X_SMELTABLES = List.of(ModItems.X_SWING,
-            ModItems.RUBY);
 
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
@@ -31,9 +29,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 30f, 400, "ruby");
         offerBlasting(exporter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY,
                 60f, 100, "ruby");
-        offerBlasting(exporter, X_SMELTABLES, RecipeCategory.MISC, ModItems.X_SWING,
-                60f, 100, "ruby");
-
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RUBY, RecipeCategory.MISC,
                 ModBlocks.RUBY_BLOCK);
 
@@ -100,25 +95,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_HOE)));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.X_BlOCK, 1)
-                .pattern("RXR")
-                .pattern("XSX")
-                .pattern("RXR")
-                .input('R', ModItems.RUBY)
-                .input('S', Items.REDSTONE)
-                .input('X', ModItems.X_SWING)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.X_BlOCK)));
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.X_JETPACK, 1)
-                .pattern("CRC")
-                .pattern("RSR")
-                .pattern("CRC")
-                .input('R', ModItems.RUBY)
-                .input('S', ModItems.X_SHIP)
-                .input('C', ModBlocks.X_BlOCK)
-                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.X_JETPACK)));
 
     }
 }

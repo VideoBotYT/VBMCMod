@@ -16,12 +16,6 @@ public class ModItems {
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item POWER_COAL = registerItem("power_coal", new Item(new FabricItemSettings()));
 
-    public static final Item X_SWING = registerItem("xswing", new Item(new FabricItemSettings()));
-    public static final Item X_ROBOT = registerItem("xrobot", new Item(new FabricItemSettings()));
-    public static final Item X_SHIP = registerItem("xship", new Item(new FabricItemSettings().food(ModFoodComponents.X_SHIP)));
-    public static final Item X_JETPACK = registerItem("xjetpack", new Item(new FabricItemSettings()));
-    public static final Item X_SPIDER = registerItem("xspider", new Item(new FabricItemSettings()));
-
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(69)));
 

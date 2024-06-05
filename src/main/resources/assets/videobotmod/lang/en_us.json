@@ -43,14 +43,7 @@
   "tooltip.metal_detector": "Finds metal ores underground. Example: Iron ore, gold ore,...",
   "tooltip.soundblock": "Plays sound when right-clicked. Obvious right?",
 
-  "block.videobotmod.xcube": "X: Cube",
-  "item.videobotmod.xswing": "X: Swing",
-  "item.videobotmod.xrobot": "X: Robot",
-  "item.videobotmod.xship": "X: Ship",
-  "item.videobotmod.xjetpack": "X: Jetpack",
-
   "itemgroup.videobotitems": "VideoBot Items",
   "itemgroup.videobotores": "VideoBot Ores",
-  "itemgroup.videobottools": "VideoBot Tools",
-  "itemgroup.xblock": "XcreatorGoal"
+  "itemgroup.videobottools": "VideoBot Tools"
 }

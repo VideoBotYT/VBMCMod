@@ -16,8 +16,6 @@ import net.videobot.videobotmod.block.custom.SoundBlock;
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-    public static final Block X_BlOCK = registerBlock(("xcube"),
-            new Block(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.COPPER)));
     public static final Block SOUND_BLOCK = registerBlock("sound_block",

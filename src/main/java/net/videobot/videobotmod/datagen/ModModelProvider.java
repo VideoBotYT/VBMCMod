@@ -24,8 +24,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.X_BlOCK);
-
         rubyPool.stairs(ModBlocks.RUBY_STAIRS);
         rubyPool.slab(ModBlocks.RUBY_SLAB);
         rubyPool.button(ModBlocks.RUBY_BUTTON);
@@ -57,12 +55,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_BOOTS));
-
-        itemModelGenerator.register(ModItems.X_SWING, Models.GENERATED);
-        itemModelGenerator.register(ModItems.X_ROBOT, Models.GENERATED);
-        itemModelGenerator.register(ModItems.X_SHIP, Models.GENERATED);
-        itemModelGenerator.register(ModItems.X_JETPACK, Models.GENERATED);
-        itemModelGenerator.register(ModItems.X_SPIDER, Models.GENERATED);
 
 
 

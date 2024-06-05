@@ -1,6 +1,6 @@
-// 1.20.1	2024-05-11T11:28:52.3843403	VideoBot Mod/Model Definitions
-480d8708cd404188c397da90321c26a5a27a5faf assets\videobotmod\models\item\ruby_helmet_gold_trim.json
+// 1.20.1	2024-05-11T12:16:10.4056534	VideoBot Mod/Model Definitions
 e74530d11dfa45413b4607c0a4ce24c05f3b7404 assets\videobotmod\models\block\ruby_trapdoor_bottom.json
+480d8708cd404188c397da90321c26a5a27a5faf assets\videobotmod\models\item\ruby_helmet_gold_trim.json
 892c259e3b71990dade21a5f859b7554e78650d3 assets\videobotmod\models\item\ruby_boots_netherite_trim.json
 76aa519e31956c87ea11db14a2bd9708697cb38d assets\videobotmod\models\item\raw_ruby.json
 3bf0af39caf9e0715d4387d5cc413d2d10293a1b assets\videobotmod\models\item\ruby_helmet_netherite_trim.json
@@ -59,14 +59,15 @@ e710e9e937802c0e68032ae5929ee30be64ebe23 assets\videobotmod\models\item\ruby_leg
 c10192acca4a1ba5118c7424d2d6fa8cd666afca assets\videobotmod\blockstates\ruby_pressure_plate.json
 4608a52b47e5b6efd5f9ae2344349a47dda50b0b assets\videobotmod\models\item\ruby_fence.json
 5014b605947f5e0c7eef28316b0d931c6e6ca956 assets\videobotmod\models\item\tomato.json
-2b01c3225b8be806d40afd0b143c74c1443632e1 assets\videobotmod\models\block\ruby_stairs_outer.json
 a771a2b1748355d0eb171fc7041e8d490026fb8d assets\videobotmod\models\item\ruby_leggings.json
+2b01c3225b8be806d40afd0b143c74c1443632e1 assets\videobotmod\models\block\ruby_stairs_outer.json
 d0fd095ee639fd0af035a16b26bcec82fbebcd78 assets\videobotmod\models\item\ruby_chestplate_emerald_trim.json
 d4f8c11904ac38041830d6e3e47c8baf7474ebe8 assets\videobotmod\models\block\ruby_fence_gate_wall_open.json
 02be31db534f472e0027d3cb782601506da7240c assets\videobotmod\models\block\ruby_door_top_right_open.json
 7b9f86ab8ee6622325c7a7ccad8b23842e265284 assets\videobotmod\models\item\xrobot.json
 61da2fcefd29f302a88e252c8acfb442a591ba1a assets\videobotmod\models\item\ruby_chestplate_diamond_trim.json
 52dcf3568061403c413b19774ca4387d0d84f151 assets\videobotmod\models\item\ruby_hoe.json
+2a3a1732cf849f3787913fe4d6234afa02b9d713 assets\videobotmod\models\item\xspider.json
 42b92698c1fc0414573512d8e974a6dc293ffdcd assets\videobotmod\models\item\ruby_ore.json
 4279bbbfa403c6bbbb5ed6521a0240e8dd7cd70a assets\videobotmod\models\block\ruby_fence_post.json
 0bb77bb47c99850169ee6942dcf5cf22a242ffee assets\videobotmod\models\item\ruby_boots_quartz_trim.json
