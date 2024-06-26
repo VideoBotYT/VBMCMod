@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.videobot.videobotmod.VideoBotMod;
 import net.videobot.videobotmod.block.custom.SoundBlock;
+import net.videobot.videobotmod.block.custom.TomatoCropBlock;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -53,6 +54,9 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).strength(2f), UniformIntProvider.create(2, 10)));
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f), UniformIntProvider.create(10, 20)));
+
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(VideoBotMod.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

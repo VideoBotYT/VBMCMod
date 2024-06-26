@@ -16,6 +16,7 @@
   "item.videobotmod.ruby_boots": "Ruby Boots",
 
   "item.videobotmod.tomato": "Tomato",
+  "item.videobotmod.tomato_seeds": "Tomato Seeds",
 
   "item.videobotmod.power_coal": "Powered Coal",
 
@@ -45,5 +46,6 @@
 
   "itemgroup.videobotitems": "VideoBot Items",
   "itemgroup.videobotores": "VideoBot Ores",
-  "itemgroup.videobottools": "VideoBot Tools"
+  "itemgroup.videobottools": "VideoBot Tools",
+  "itemgroup.videobotcrops": "VideoBot Crops"
 }

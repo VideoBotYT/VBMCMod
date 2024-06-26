@@ -33,8 +33,6 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.SOUND_BLOCK);
 
-                        entries.add(ModItems.TOMATO);
-
                         entries.add(ModItems.POWER_COAL);
 
                         entries.add(ModItems.RUBY_HELMET);
@@ -66,16 +64,12 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_HOE);
                     }).build());
 
-    public static final ItemGroup XBLOCKS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(VideoBotMod.MOD_ID, "xswing"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.xblock"))
-                    .icon(() -> new ItemStack(ModBlocks.X_BlOCK)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.X_BlOCK);
-                        entries.add(ModItems.X_SWING);
-                        entries.add(ModItems.X_ROBOT);
-                        entries.add(ModItems.X_SHIP);
-                        entries.add(ModItems.X_JETPACK);
-                        entries.add(ModItems.X_SPIDER);
+    public static final ItemGroup VideoBotCrops = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(VideoBotMod.MOD_ID, "tomato"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.videobotcrops"))
+                    .icon(() -> new ItemStack(ModItems.TOMATO)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.TOMATO_SEEDS);
+                        entries.add(ModItems.TOMATO);
                     }).build());
 
 
