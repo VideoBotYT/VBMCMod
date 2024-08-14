@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "videobotmod:ruby_block",
-    "videobotmod:raw_ruby_block",
-    "videobotmod:ruby_ore",
-    "videobotmod:deepslate_ruby_ore",
-    "videobotmod:nether_ruby_ore"
+    "rubymod:ruby_block",
+    "rubymod:raw_ruby_block",
+    "rubymod:ruby_ore",
+    "rubymod:deepslate_ruby_ore",
+    "rubymod:nether_ruby_ore"
   ]
 }

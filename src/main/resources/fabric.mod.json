@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "videobotmod",
+	"id": "rubymod",
 	"version": "${version}",
-	"name": "VideoBot Mod",
+	"name": "Ruby Mod",
 	"description": "This is a made by VideoBot",
 	"authors": [
 		"VideoBot"
@@ -15,16 +15,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.videobot.videobotmod.VideoBotMod"
+          "net.videobot.rubymod.RobyMod"
 		],"client": [
-			"net.videobot.videobotmod.VideoBotModClient"
+			"net.videobot.rubymod.RubyModClient"
 		],
 		"fabric-datagen": [
-			"net.videobot.videobotmod.VideoBotModDataGenerator"
+			"net.videobot.rubymod.RubyModDataGenerator"
 		]
 	},
 	"mixins": [
-		"videobotmod.mixins.json"
+		"rubymod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

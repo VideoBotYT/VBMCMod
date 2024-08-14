@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "videobotmod:block/ruby_block",
-    "side": "videobotmod:block/ruby_block",
-    "top": "videobotmod:block/ruby_block"
-  }
-}

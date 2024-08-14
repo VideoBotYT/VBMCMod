@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "videobotmod:ruby_helmet",
-    "videobotmod:ruby_chestplate",
-    "videobotmod:ruby_leggings",
-    "videobotmod:ruby_boots"
+    "rubymod:ruby_helmet",
+    "rubymod:ruby_chestplate",
+    "rubymod:ruby_leggings",
+    "rubymod:ruby_boots"
   ]
 }

@@ -1,0 +1,9 @@
+// 1.20.1	2024-06-30T15:37:18.8726526	Ruby Mod/Tags for minecraft:block
+6cc3f0c42c36700bd8b7854f11fa172641d3d030 data\rubymod\tags\blocks\metal_dectector_detectable_blocks.json
+e667d7ad84a1d238646ed1a373f8b41336018c41 data\minecraft\tags\blocks\fences.json
+a6e825644296bf20f9942705edf2472ab22ebd05 data\fabric\tags\blocks\needs_tool_level_10.json
+f264bf21f9f0bbe3e5cd8eef4ecda191777c8338 data\fabric\tags\blocks\needs_tool_level_4.json
+731c72a2b1beca73c6f0e4b7f79f9835ad77720e data\minecraft\tags\blocks\needs_diamond_tool.json
+b2738a64189dffe6d939aa752bc0bba30cd441ee data\minecraft\tags\blocks\walls.json
+cf49359a01f5a478b99e6e72d2e4fef1c5499d8c data\minecraft\tags\blocks\mineable\pickaxe.json
+96c5cfc3325be7824ae4de962f13cbae9c9b6479 data\minecraft\tags\blocks\fence_gates.json
