@@ -7,8 +7,8 @@
   "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
   "item.rubymod.ruby_axe": "Ruby Axe",
   "item.rubymod.ruby_sword": "Ruby Sword",
-  "item.ruby.ruby_shovel": "Ruby Shovel",
-  "item.ruby.ruby_hoe": "Ruby Hoe",
+  "item.rubymod.ruby_shovel": "Ruby Shovel",
+  "item.rubymod.ruby_hoe": "Ruby Hoe",
 
   "item.rubymod.ruby_helmet": "Ruby Helmet",
   "item.rubymod.ruby_chestplate": "Ruby Chestplate",
@@ -21,6 +21,8 @@
   "item.rubymod.corn_seeds": "Corn Seeds",
 
   "item.rubymod.power_coal": "Powered Coal",
+
+  "item.rubymod.porcupine_spawn_egg": "Porcupine Spawn Egg",
 
   "block.rubymod.ruby_block": "Ruby Block",
   "block.rubymod.raw_ruby_block": "Raw Ruby Block",
@@ -41,10 +43,26 @@
   "block.rubymod.ruby_door": "Ruby Door",
   "block.rubymod.ruby_trapdoor": "Ruby Trapdoor",
 
+  "block.rubymod.dahlia": "Dahlia",
+
   "item.rubymod.metal_detector": "Metal Detector",
 
   "tooltip.metal_detector": "Finds metal ores underground. Example: Iron ore, gold ore,...",
   "tooltip.soundblock": "Plays sound when right-clicked. Obvious right?",
+
+  "entity.minecraft.villager.sound_master": "Soundmaster",
+
+  "sounds.rubymod.ore_found": "Ore Found",
+  "sounds.rubymod.soundblock_break": "Sound Block Broken",
+  "sounds.rubymod.soundblock_step": "Stepping on Sound Block",
+  "sounds.rubymod.soundblock_place": "Sound Block Placed",
+  "sounds.rubymod.soundblock_fall": "Sound Block Fall",
+  "sounds.rubymod.soundblock_hit": "Sound Block Plays Sound",
+
+  "sounds.rubymod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "sounds.rubymod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "block.rubymod.gem_polishing_station": "Gem Polishing Station",
 
   "itemgroup.rubyitems": "Ruby Items",
   "itemgroup.rubyores": "Ruby Ores",
