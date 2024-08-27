@@ -3,6 +3,7 @@ package net.videobot.rubymod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -10,10 +11,12 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
-import net.videobot.rubymod.RobyMod;
+import net.videobot.rubymod.RubyMod;
 import net.videobot.rubymod.block.custom.CornCropBlock;
+import net.videobot.rubymod.block.custom.GemPolishingStationBlock;
 import net.videobot.rubymod.block.custom.SoundBlock;
 import net.videobot.rubymod.block.custom.TomatoCropBlock;
+import net.videobot.rubymod.sound.ModSounds;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -21,7 +24,7 @@ public class ModBlocks {
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.COPPER)));
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
@@ -56,23 +59,32 @@ public class ModBlocks {
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f), UniformIntProvider.create(10, 20)));
 
-    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(RobyMod.MOD_ID, "tomato_crop"),
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(RubyMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
-    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(RobyMod.MOD_ID, "corn_crop"),
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(RubyMod.MOD_ID, "corn_crop"),
             new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block DAHLIA = registerBlock("dahlia",
+            new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 10,
+                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(RubyMod.MOD_ID, "potted_dahlia"),
+            new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(RobyMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(RubyMod.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(RobyMod.MOD_ID, name),
+        return Registry.register(Registries.ITEM, new Identifier(RubyMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
     public static void registerModBlocks() {
-        RobyMod.LOGGER.info("Regisering ModBlocks for: " + RobyMod.MOD_ID);
+        RubyMod.LOGGER.info("Regisering ModBlocks for: " + RubyMod.MOD_ID);
     }
 }

@@ -6,10 +6,12 @@ import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.videobot.rubymod.block.ModBlocks;
+import net.videobot.rubymod.entity.ModEntities;
 import net.videobot.rubymod.item.custom.MetalDetectorItem;
-import net.videobot.rubymod.RobyMod;
+import net.videobot.rubymod.RubyMod;
 import net.minecraft.registry.Registry;
 import net.videobot.rubymod.item.custom.ModArmorItem;
+import net.videobot.rubymod.sound.ModSounds;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -32,7 +34,7 @@ public class ModItems {
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
             new SwordItem(ModToolMaterial.RUBY, 999999999, 40f, new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
-            new HoeItem(ModToolMaterial.RUBY, 2, 2f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.RUBY, 2, -3.5f, new FabricItemSettings()));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
             new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -51,6 +53,13 @@ public class ModItems {
     public static final  Item CORN = registerItem("corn",
             new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
 
+    public static final  Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
+
+    public static final Item PORCUPINE_SPAWN_EGG= registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(RUBY);
@@ -58,9 +67,9 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(RobyMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
     }
     public static void registerModItems() {
-        RobyMod.LOGGER.info("Regestering Mod Items for: " + RobyMod.MOD_ID);
+        RubyMod.LOGGER.info("Regestering Mod Items for: " + RubyMod.MOD_ID);
     }
 }

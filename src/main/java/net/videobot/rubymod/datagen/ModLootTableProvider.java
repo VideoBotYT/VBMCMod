@@ -52,12 +52,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 .exactMatch(TomatoCropBlock.AGE, 5));
         addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder));
 
-        AnyOfLootCondition.Builder builder2 =
-                BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
-                        .exactMatch(CornCropBlock.AGE, 7))
-                        .or(BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
-                                .exactMatch(CornCropBlock.AGE, 8)));
+        BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                .exactMatch(CornCropBlock.AGE, 8));
         addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, builder2));
+
+        addDrop(ModBlocks.DAHLIA);
+        addPottedPlantDrops(ModBlocks.POTTED_DAHLIA);
     }
 
     public LootTable.Builder RubyOreDrops(Block drop, Item item) {

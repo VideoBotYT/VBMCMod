@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
-import net.videobot.rubymod.RobyMod;
+import net.videobot.rubymod.RubyMod;
 
 public class ModTags {
     public static class Blocks {
@@ -13,14 +13,14 @@ public class ModTags {
                 createTag("metal_dectector_detectable_blocks");
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(RobyMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, new Identifier(RubyMod.MOD_ID, name));
         }
     }
 
     public static class Items {
 
         private static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(RobyMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, new Identifier(RubyMod.MOD_ID, name));
         }
     }
 }
